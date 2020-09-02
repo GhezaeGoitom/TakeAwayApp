@@ -1,2 +1,3 @@
 # TakeAway
- https://camo.githubusercontent.com/9a023b1c2908b52d21f59100c52bf47a627feca8/687474703a2f2f736f766974706f7564656c2e636f6d2e6e702f77702d636f6e74656e742f75706c6f6164732f323031392f30312f666c75747465722e706e67
+
+This App basically helps you if you want to build your own delivery system.
