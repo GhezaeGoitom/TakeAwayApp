@@ -7,7 +7,7 @@ import 'package:rxdart/rxdart.dart';
 class ColorBloc extends BlocBase {
   ColorBloc();
 
-//Stream that receives a number and changes the count;
+//Stream that receives a data and change;
   var _colorController = BehaviorSubject<Color>.seeded(Colors.white);
 
 //output

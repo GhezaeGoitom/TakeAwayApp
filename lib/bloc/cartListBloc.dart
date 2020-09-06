@@ -3,12 +3,10 @@ import 'package:rxdart/rxdart.dart';
 import '../model/foodItem.dart';
 import 'provider.dart';
 
-//brodcast 11.37
-
 class CartListBloc extends BlocBase {
   CartListBloc();
 
-//Stream that receives a number and changes the count;
+//Stream that receives a data and change;
   var _listController = BehaviorSubject<List<FoodItem>>.seeded([]);
 //output
   Stream<List<FoodItem>> get listStream => _listController.stream;
